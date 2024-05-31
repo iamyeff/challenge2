@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .carta { background: hsl(0, 0%, 100%); display: block; border-radius: 20px; position: relative; display: block; block-size: 15%; text-align: left;width: 310px; border-color: black; border-width: thin; border-style: solid; padding: 20px; margin-top: 250px; margin-left: auto; margin-right: auto; margin-bottom: 250px; box-shadow: 8px 10px 1px black; }
+    .imagen { border-radius: 10px; width: 310px; }
+    .learn { background: hsl(47, 88%, 63%); border-radius: 5px; position: relative; width: 90px; height: 25px; margin: 10px; margin-left: 0px; margin-top: 20px; }
+    .learn_text { text-align: center; padding: 5px; font-size: 13px; font-weight: 800; }
+    .titulo { font-size: 25px; margin: 15px; margin-left: 0px; font-size: 20px; font-weight: 800; }
+    .titulo:hover {  color: hsl(47, 88%, 63%); }         
+    .publicado { font-size: 13px; font-weight: 600;} 
+    .descripcion { color: hsl(0, 0%, 50%); margin: 10px; margin-left: 0px; font-size: 15px; line-height: 1.5; }
+    .imagen_perfil { width: 25px; height: 25px; float: left;} 
+    .perfil { font-size: 12px; font-weight: 800; padding-top: 5px; margin-left: 35px;}           
+    body { background: hsl(47, 88%, 63%); font-family: "Figtree", sans-serif;}
+  </style>
+</head>
+<body>
+
+    <div class="carta">
+      <div class="img">
+        <img class="imagen" src=".\assets\images\illustration-article.svg" alt="Imagen abstracta">
+      </div>
+      <div class="texto">
+        <div class="learn">
+          <div class="learn_text">Aprendiendo</div>
+        </div>
+
+        <div class="publicado"> Publicado el 21 Dic 2023</div>
+
+        <div class="titulo"><span style="cursor: pointer">Fundamentos de HTML Y CSS</span></div>
+
+        <div class="descripcion"> Estos lenguajes son la columna vertebral de cada sitio web y definen la estructura, el contenido y la presentación. </div>
+
+        <img class="imagen_perfil" src=".\assets\images\image-avatar.webp"><div class="perfil">Yeferson Montaño</div> 
+      </div> 
+    </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">iamyeff</a>.
+  </div>
+</body>
+</html>
